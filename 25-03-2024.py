@@ -55,9 +55,17 @@
 #     print('The distance is the same')
 
 # 246 ((5 * 4) * 3) * 2
-n=int(input("Введіть число n:"))
+# n=int(input("Введіть число n:"))
 
-for i in range(n-1, 1, -1):
-    print(i)
-    n=n*i
-print(n)
+# for i in range(n-1, 1, -1):
+#     print(i)
+#     n=n*i
+# print(n)
+
+def fact(n):
+  n-=1
+  if n==2:
+    return n*(n-1)
+  
+  return fact(n)*(n-1)
+print(fact(5))

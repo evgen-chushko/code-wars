@@ -1,0 +1,40 @@
+# 405
+# sequence=input("Enter a sequence of integers: ")
+# numbers = sequence.split()
+# half_length = len(numbers) // 2
+# second_half = numbers[half_length:]
+# print("Second half of the list:", second_half)
+
+# 406
+sequence = input("Введіть послідовність цілих чисел через пробіл: ")
+numbers = list(map(int, sequence.split()))
+last_two = numbers[-2:]
+numbers = last_two + numbers[:-2]
+print(" ".join(map(str, numbers)))
+
+# 506
+# a=input("Input name of web searcher:")
+# dict={"Yahoo": 2.09, "Google": 90.15, "Bing": 3.23, "Baidu": 2.2}
+# if a=="Yahoo":
+#   print(dict["Yahoo"])
+# if a=="Bing":
+#   print(dict["Bing"])
+# if a=="Baidu":
+#   print(dict["Baidu"])
+# if a=="Google":
+#   print(dict["Google"])
+# else:
+#   print("property does not exist")
+
+# 507
+# good_deeds = {"today": ["Make a compliment to a friend",
+# "Call your grandparents","Embrace parents"],"tomorrow":
+# ["Feed the birds in the park",
+# "Give unnecessary things to those who need them","Smile"]}
+
+# print("today:", good_deeds["today"])
+
+
+# print("tomorrow:")
+# for deed in good_deeds["tomorrow"]:
+#     print(deed)
