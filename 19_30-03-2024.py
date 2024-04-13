@@ -62,22 +62,22 @@
 #         print(i, " ", end="")
 #     print()
 # # 144
-workingHours = int(input())
-selary = int(input())
-increasedSelary = selary * 1.5
-if workingHours > 40:
-    print(40*selary + (workingHours - 40) * increasedSelary)
-else:
-    print(workingHours*selary)
-# 79
-# a = int(input("Введіть кількість учнів у класі A: "))
-# b = int(input("Введіть кількість учнів у класі B: "))
-# c = int(input("Введіть кількість учнів у класі C: "))
-# total = a + b + c
-# if total % 2 == 0:
-#     print(total // 2)
+# workingHours = int(input())
+# selary = int(input())
+# increasedSelary = selary * 1.5
+# if workingHours > 40:
+#     print(40*selary + (workingHours - 40) * increasedSelary)
 # else:
-#     print((total + 1) // 2)
+#     print(workingHours*selary)
+# 79
+a = int(input("Введіть кількість учнів у класі A: "))
+b = int(input("Введіть кількість учнів у класі B: "))
+c = int(input("Введіть кількість учнів у класі C: "))
+total = a + b + c
+if total % 2 == 0:
+    print(total // 2)
+else:
+    print((total + 1) // 2)
 
 
 

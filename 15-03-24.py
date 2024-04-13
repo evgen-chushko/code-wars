@@ -33,12 +33,12 @@
 
 
 #2.3 - 239
-def stairs(n):
-  for i in range(1, n):
-    spaces=" " * (n-i)
-    reshetki="#" * i
-    print(spaces+reshetki)
-  return
+# def stairs(n):
+#   for i in range(1, n):
+#     spaces=" " * (n-i)
+#     reshetki="#" * i
+#     print(spaces+reshetki)
+#   return
 
-print(stairs(6))
+# print(stairs(6))
 

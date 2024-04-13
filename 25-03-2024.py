@@ -62,10 +62,4 @@
 #     n=n*i
 # print(n)
 
-def fact(n):
-  n-=1
-  if n==2:
-    return n*(n-1)
-  
-  return fact(n)*(n-1)
-print(fact(5))
+

@@ -65,3 +65,5 @@
 # def isAllPos(a):
 #   if a[0]==0 and a.length<2:
 #     return True
+#   # for i in a:
+    

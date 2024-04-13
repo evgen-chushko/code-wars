@@ -7,5 +7,5 @@ n=int(input("Введіть ціло число:"))
 sum=0
 for i in range(1, n+1):
   
-  print(fact(i))
-
+  sum+=fact(i)
+  print(i)

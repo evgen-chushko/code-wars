@@ -6,11 +6,11 @@
 # print("Second half of the list:", second_half)
 
 # 406
-sequence = input("Введіть послідовність цілих чисел через пробіл: ")
-numbers = list(map(int, sequence.split()))
-last_two = numbers[-2:]
-numbers = last_two + numbers[:-2]
-print(" ".join(map(str, numbers)))
+# sequence = input("Введіть послідовність цілих чисел через пробіл: ")
+# numbers = list(map(int, sequence.split()))
+# last_two = numbers[-2:]
+# numbers = last_two + numbers[:-2]
+# print(" ".join(map(str, numbers)))
 
 # 506
 # a=input("Input name of web searcher:")

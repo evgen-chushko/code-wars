@@ -20,3 +20,4 @@
 num=lambda x, y: x*y
   
 print(num(1, 2))
+num={5,7,3,2,67}

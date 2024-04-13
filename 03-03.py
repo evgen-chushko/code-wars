@@ -1,3 +1,6 @@
-arr=[6, 2, 1, 8, 10]
-y=sum((sorted(arr)[1:-1]))
-print(y)
+def pillars(num_pill, dist, width):
+    return dist * 100 * (num_pill - 1) + width * (num_pill - 2) * (num_pill > 1)
+    
+def combine_names(first, last):
+    return first + " " + last
+
